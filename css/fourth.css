@@ -1,0 +1,69 @@
+#our__life {
+  font-size: 60px;
+  font-weight: bolder;
+  color: white;
+  margin-bottom: 100px;
+}
+
+.fourth {
+  width: 100vw;
+  height: 100vh;
+}
+.fourt__container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.slider {
+  display: flex;
+  gap: 100px;
+}
+
+.slider > .item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  flex: 0 0 200px;
+  font-size: 30px;
+  color: white;
+}
+
+.slider > .item > img {
+  width: 150px;
+  height: 150px;
+  border-radius: 9999px;
+  object-fit: cover;
+}
+
+.slide_text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 50px;
+  color: white;
+  transform: translateY(300px);
+}
+
+#slide_text_first {
+  transform: translateX(-1000px);
+  opacity: 0;
+}
+
+#slide_text_second {
+  transform: translateX(1000px);
+  opacity: 0;
+}
+
+#slide_text_third {
+  transform: translateX(-1000px);
+  opacity: 0;
+}
+
+#slide_text_fourth {
+  transform: translateX(1000px);
+  opacity: 0;
+}

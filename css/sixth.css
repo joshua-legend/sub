@@ -1,0 +1,24 @@
+.sixth {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sixth > video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.sixth__title {
+  position: absolute;
+  font-size: 100px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.sixth__title h3 {
+  opacity: 0;
+  transform: translateX(100px);
+}

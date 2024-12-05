@@ -1,0 +1,32 @@
+.second {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+.second__container {
+  width: 100%;
+  max-width: 700px;
+
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.second__container > h2 {
+  z-index: 1;
+  font-size: 200px;
+  font-weight: bolder;
+  color: white;
+}
+.second_title {
+  opacity: 0;
+}
+
+#ing {
+  text-align: end;
+}
+#studio {
+  fill: none;
+  -webkit-text-stroke: 2px white; /* 텍스트 테두리 두께와 색상을 설정합니다 */
+  -webkit-text-fill-color: transparent; /* 텍스트 내부를 완전히 투명하게 */
+}

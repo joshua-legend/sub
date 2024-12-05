@@ -1,0 +1,45 @@
+.first {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 250px;
+  position: relative;
+}
+
+.first__container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 30px;
+}
+.first__container > h1 {
+  z-index: 1;
+  font-size: 150px;
+  font-weight: bolder;
+  color: white;
+}
+
+.first__container > p {
+  width: 50%;
+  font-size: 24px;
+  color: white;
+  line-height: 1.3;
+}
+
+#city {
+  position: absolute;
+  bottom: 25%;
+  left: 20%;
+  width: 15vw;
+  object-fit: contain;
+}
+
+#city1 {
+  position: absolute;
+  top: 15%;
+  right: 20%;
+  width: 10vw;
+  object-fit: contain;
+}

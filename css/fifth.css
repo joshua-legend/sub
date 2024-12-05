@@ -1,0 +1,31 @@
+.fifth {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fifth > video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.black__label {
+  width: 100vw;
+  background-color: black;
+  height: 100px;
+  position: absolute;
+  top: 0px;
+}
+.fifth__title {
+  position: absolute;
+  font-size: 100px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+.fifth__title h3 {
+  opacity: 0;
+  transform: translateY(100px);
+}
